@@ -1,0 +1,361 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="900" viewBox="0 0 1200 900">
+<defs>
+  <linearGradient id="g6-table" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#5A3A24"/>
+    <stop offset=".5" stop-color="#3A2416"/>
+    <stop offset="1" stop-color="#24160C"/>
+  </linearGradient>
+  <radialGradient id="g6-light" cx=".38" cy=".36" r=".55">
+    <stop offset="0" stop-color="#E8B070" stop-opacity=".28"/>
+    <stop offset="1" stop-color="#E8B070" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="g6-mortar" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#B07A4E"/>
+    <stop offset=".22" stop-color="#C98E5C"/>
+    <stop offset=".55" stop-color="#8A5530"/>
+    <stop offset="1" stop-color="#4A2614"/>
+  </linearGradient>
+  <linearGradient id="g6-pestle" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#D49A66"/>
+    <stop offset=".5" stop-color="#9A6238"/>
+    <stop offset="1" stop-color="#5A3018"/>
+  </linearGradient>
+  <radialGradient id="g6-hole" cx=".5" cy=".75" r=".7">
+    <stop offset="0" stop-color="#4A2C18"/>
+    <stop offset="1" stop-color="#1A0D06"/>
+  </radialGradient>
+  <radialGradient id="g6-bean" cx=".34" cy=".3" r=".8">
+    <stop offset="0" stop-color="#F0D98E"/>
+    <stop offset=".5" stop-color="#CBA651"/>
+    <stop offset="1" stop-color="#86692A"/>
+  </radialGradient>
+  <radialGradient id="g6-beanD" cx=".34" cy=".3" r=".8">
+    <stop offset="0" stop-color="#D2B670"/>
+    <stop offset=".5" stop-color="#A2853E"/>
+    <stop offset="1" stop-color="#5E4A1E"/>
+  </radialGradient>
+  <linearGradient id="g6-porc" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#FFFDF8"/><stop offset=".5" stop-color="#EFE4D2"/><stop offset="1" stop-color="#BFAE92"/>
+  </linearGradient>
+  <linearGradient id="g6-pod" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#BAC47A"/>
+    <stop offset=".5" stop-color="#8E9C4C"/>
+    <stop offset="1" stop-color="#56602A"/>
+  </linearGradient>
+  <linearGradient id="g6-clove" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#9A6240"/>
+    <stop offset="1" stop-color="#4A2614"/>
+  </linearGradient>
+  <linearGradient id="g6-brass" x1="0" y1="0" x2="1" y2=".3">
+    <stop offset="0" stop-color="#F0CB80"/>
+    <stop offset=".5" stop-color="#C8912F"/>
+    <stop offset="1" stop-color="#7A4C18"/>
+  </linearGradient>
+  <radialGradient id="g6-vig" cx=".5" cy=".46" r=".75">
+    <stop offset=".5" stop-color="#140A05" stop-opacity="0"/>
+    <stop offset="1" stop-color="#140A05" stop-opacity=".5"/>
+  </radialGradient>
+  <filter id="g6-sh" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="6"/></filter>
+  <filter id="g6-shbig" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="14"/></filter>
+  <g id="g6-b">
+    <ellipse rx="19" ry="14" fill="url(#g6-bean)"/>
+    <path d="M-14 1C-6-5 6 6 14-1" fill="none" stroke="#5E4C20" stroke-width="2.6" stroke-linecap="round"/>
+    <path d="M-12-3C-5-8 4-2 10-6" fill="none" stroke="#FFF3C8" stroke-width="1.6" stroke-linecap="round" opacity=".55"/>
+  </g>
+  <g id="g6-p">
+    <path d="M-17 0C-17-8-8-11 0-11C9-11 17-7 19 0C17 7 9 11 0 11C-8 11-17 8-17 0Z" fill="url(#g6-pod)"/>
+    <path d="M-14-4C-4-8 8-8 17-2M-15 1C-4-1 8-1 18 1M-13 5C-4 8 8 8 16 3" fill="none" stroke="#46521E" stroke-width="1.1" opacity=".5"/>
+    <path d="M-10-6C-2-9 6-9 12-6" fill="none" stroke="#E2E8AA" stroke-width="1.8" stroke-linecap="round" opacity=".6"/>
+    <path d="M19 0L24 0M-17 0L-20 0" stroke="#6A7432" stroke-width="2.2" stroke-linecap="round"/>
+  </g>
+  <g id="g6-bd">
+    <ellipse rx="19" ry="14" fill="url(#g6-beanD)"/>
+    <path d="M-14 1C-6-5 6 6 14-1" fill="none" stroke="#3E3010" stroke-width="2.6" stroke-linecap="round"/>
+  </g>
+  <g id="g6-c">
+    <path d="M-3.2 2L3.2 2L1.2 26L-1.2 26Z" fill="url(#g6-clove)"/>
+    <path d="M-9-5Q-5-1-3 2H3Q5-1 9-5Q6 4 3 5H-3Q-6 4-9-5Z" fill="#6E3E22"/>
+    <circle cy="-5" r="5.2" fill="#4A2614"/>
+    <circle cx="-1.6" cy="-6.6" r="1.8" fill="#B07A50" opacity=".7"/>
+    <path d="M-1.6 6V22" stroke="#B07A50" stroke-width="1" opacity=".5"/>
+  </g>
+</defs>
+
+<!-- dark wooden table -->
+<rect width="1200" height="900" fill="url(#g6-table)"/>
+<g stroke-linecap="round" fill="none">
+  <path d="M0 182H1200M0 418H1200M0 652H1200" stroke="#140A04" stroke-width="4" opacity=".8"/>
+  <path d="M0 186H1200M0 422H1200M0 656H1200" stroke="#7A5234" stroke-width="1.5" opacity=".35"/>
+  <path d="M0 70C200 60 380 84 600 74S980 60 1200 76M0 120C260 114 520 132 760 122S1060 112 1200 118" stroke="#6E4A30" stroke-width="2" opacity=".35"/>
+  <path d="M0 268C240 258 460 284 700 272S1020 258 1200 270M0 340C300 334 560 352 820 342S1080 334 1200 338" stroke="#6E4A30" stroke-width="2" opacity=".32"/>
+  <path d="M0 500C220 492 420 514 660 504S1000 490 1200 502M0 580C280 574 540 592 800 582S1060 574 1200 580" stroke="#6E4A30" stroke-width="2" opacity=".3"/>
+  <path d="M0 730C260 722 480 744 720 734S1040 720 1200 732M0 812C300 806 560 824 820 814S1080 806 1200 812" stroke="#6E4A30" stroke-width="2" opacity=".28"/>
+  <path d="M120 300C180 292 230 306 250 300" stroke="#140A04" stroke-width="3" opacity=".4"/>
+</g>
+<rect width="1200" height="900" fill="url(#g6-light)"/>
+
+<!-- shadows -->
+<g fill="#0A0503" filter="url(#g6-shbig)" opacity=".55">
+  <ellipse cx="452" cy="602" rx="130" ry="40"/>
+  <path d="M520 360L700 170L716 186L560 380Z"/>
+  <ellipse cx="672" cy="690" rx="215" ry="88"/>
+  <ellipse cx="902" cy="462" rx="120" ry="62"/>
+  <ellipse cx="854" cy="250" rx="110" ry="36"/>
+  <ellipse cx="312" cy="752" rx="96" ry="30"/>
+</g>
+
+<!-- saffron dish -->
+<ellipse cx="840" cy="234" rx="108" ry="37" fill="#6E4418"/>
+<ellipse cx="840" cy="227" rx="108" ry="36" fill="url(#g6-brass)"/>
+<ellipse cx="840" cy="229" rx="90" ry="28" fill="#A87428"/>
+<ellipse cx="840" cy="231" rx="72" ry="20" fill="#C8912F" opacity=".5"/>
+<path d="M752 214C776 198 820 192 860 192" fill="none" stroke="#FFF0C4" stroke-width="3" stroke-linecap="round" opacity=".7"/>
+<g fill="none" stroke-width="3" stroke-linecap="round">
+<path d="M844 224Q826 230 821 243" stroke="#B8321A"/>
+<path d="M770 216Q763 224 763 235" stroke="#B8321A"/>
+<path d="M817 229Q809 236 787 235" stroke="#B8321A"/>
+<path d="M807 221Q806 230 816 244" stroke="#C93E1E"/>
+<path d="M871 209Q867 222 859 233" stroke="#B8321A"/>
+<path d="M796 228Q818 236 835 241" stroke="#E0582A"/>
+<path d="M879 229Q857 233 848 245" stroke="#9E2814"/>
+<path d="M802 199Q806 212 801 220" stroke="#C93E1E"/>
+<path d="M841 193Q825 201 815 212" stroke="#C93E1E"/>
+<path d="M846 231Q818 229 803 233" stroke="#B8321A"/>
+<path d="M834 227Q846 230 865 237" stroke="#E0582A"/>
+<path d="M844 237Q858 240 876 244" stroke="#B8321A"/>
+<path d="M905 216Q917 230 912 236" stroke="#E0582A"/>
+<path d="M819 215Q817 228 807 236" stroke="#9E2814"/>
+<path d="M833 196Q826 209 813 220" stroke="#C93E1E"/>
+<path d="M812 197Q817 209 817 219" stroke="#B8321A"/>
+<path d="M862 205Q863 214 875 230" stroke="#9E2814"/>
+<path d="M847 219Q833 226 812 229" stroke="#C93E1E"/>
+<path d="M851 216Q881 220 896 217" stroke="#B8321A"/>
+<path d="M874 221Q901 232 912 234" stroke="#E0582A"/>
+<path d="M888 221Q885 234 882 247" stroke="#E0582A"/>
+<path d="M810 220Q796 224 776 224" stroke="#9E2814"/>
+<path d="M782 213Q771 223 755 231" stroke="#E0582A"/>
+<path d="M814 237Q831 237 852 238" stroke="#E0582A"/>
+<path d="M808 211Q827 225 829 230" stroke="#C93E1E"/>
+<path d="M911 213Q920 227 914 233" stroke="#B8321A"/>
+<path d="M860 196Q857 205 863 220" stroke="#C93E1E"/>
+<path d="M823 231Q804 238 785 245" stroke="#E0582A"/>
+<path d="M859 199Q849 209 829 214" stroke="#C93E1E"/>
+<path d="M822 229Q829 235 848 245" stroke="#B8321A"/>
+<path d="M854 194Q859 204 872 217" stroke="#9E2814"/>
+<path d="M796 222Q795 235 778 241" stroke="#9E2814"/>
+<path d="M924 227Q897 228 882 235" stroke="#E0582A"/>
+<path d="M810 221Q837 223 857 223" stroke="#E0582A"/>
+<path d="M811 209Q795 213 781 218" stroke="#C93E1E"/>
+<path d="M854 225Q855 239 850 250" stroke="#B8321A"/>
+<path d="M823 198Q800 203 788 214" stroke="#C93E1E"/>
+<path d="M773 207Q778 221 782 234" stroke="#E0582A"/>
+<path d="M780 222Q781 234 783 246" stroke="#C93E1E"/>
+<path d="M811 208Q833 216 846 220" stroke="#C93E1E"/>
+<path d="M871 199Q873 214 863 224" stroke="#E0582A"/>
+<path d="M783 225Q771 233 765 242" stroke="#B8321A"/>
+<path d="M872 214Q861 227 839 235" stroke="#B8321A"/>
+<path d="M803 220Q793 225 774 226" stroke="#C93E1E"/>
+<path d="M796 231Q804 242 812 252" stroke="#C93E1E"/>
+<path d="M820 230Q827 235 842 243" stroke="#E0582A"/>
+<path d="M948 292Q962 300 980 296" stroke="#C93E1E"/>
+<path d="M932 306Q944 318 962 318" stroke="#E0582A"/>
+</g>
+
+<!-- cardamom -->
+<g>
+<use xlink:href="#g6-p" transform="translate(932 401) rotate(46) scale(1.03)"/>
+<use xlink:href="#g6-p" transform="translate(850 403) rotate(48) scale(1.15)"/>
+<use xlink:href="#g6-p" transform="translate(911 410) rotate(49) scale(1.02)"/>
+<use xlink:href="#g6-p" transform="translate(825 411) rotate(-28) scale(1.08)"/>
+<use xlink:href="#g6-p" transform="translate(883 413) rotate(-50) scale(1.02)"/>
+<use xlink:href="#g6-p" transform="translate(954 419) rotate(1) scale(1.09)"/>
+<use xlink:href="#g6-p" transform="translate(859 423) rotate(-48) scale(1.07)"/>
+<use xlink:href="#g6-p" transform="translate(805 426) rotate(-58) scale(1.11)"/>
+<use xlink:href="#g6-p" transform="translate(925 432) rotate(-70) scale(1.03)"/>
+<use xlink:href="#g6-p" transform="translate(831 435) rotate(61) scale(1.13)"/>
+<use xlink:href="#g6-p" transform="translate(986 439) rotate(59) scale(1.06)"/>
+<use xlink:href="#g6-p" transform="translate(900 441) rotate(22) scale(1.01)"/>
+<use xlink:href="#g6-p" transform="translate(811 445) rotate(-79) scale(0.96)"/>
+<use xlink:href="#g6-p" transform="translate(874 447) rotate(41) scale(1.07)"/>
+<use xlink:href="#g6-p" transform="translate(957 450) rotate(-65) scale(1.11)"/>
+<use xlink:href="#g6-p" transform="translate(932 451) rotate(59) scale(1.07)"/>
+<use xlink:href="#g6-p" transform="translate(841 454) rotate(77) scale(0.98)"/>
+<use xlink:href="#g6-p" transform="translate(980 460) rotate(72) scale(1.13)"/>
+<use xlink:href="#g6-p" transform="translate(809 463) rotate(-59) scale(0.99)"/>
+<use xlink:href="#g6-p" transform="translate(910 463) rotate(37) scale(1.08)"/>
+<use xlink:href="#g6-p" transform="translate(862 468) rotate(-36) scale(0.97)"/>
+<use xlink:href="#g6-p" transform="translate(890 472) rotate(-34) scale(1.12)"/>
+<use xlink:href="#g6-p" transform="translate(963 473) rotate(27) scale(1.10)"/>
+<use xlink:href="#g6-p" transform="translate(936 474) rotate(-77) scale(1.02)"/>
+<use xlink:href="#g6-p" transform="translate(822 481) rotate(-45) scale(1.11)"/>
+<use xlink:href="#g6-p" transform="translate(853 488) rotate(63) scale(1.09)"/>
+<use xlink:href="#g6-p" transform="translate(884 490) rotate(-3) scale(0.99)"/>
+<use xlink:href="#g6-p" transform="translate(914 493) rotate(-72) scale(1.01)"/>
+<use xlink:href="#g6-p" transform="translate(894 410) rotate(30) scale(1.06)"/>
+<use xlink:href="#g6-p" transform="translate(901 430) rotate(68) scale(1.09)"/>
+<use xlink:href="#g6-p" transform="translate(865 433) rotate(-67) scale(1.05)"/>
+<use xlink:href="#g6-p" transform="translate(929 436) rotate(53) scale(1.00)"/>
+<use xlink:href="#g6-p" transform="translate(840 437) rotate(-50) scale(1.08)"/>
+<use xlink:href="#g6-p" transform="translate(906 453) rotate(27) scale(1.06)"/>
+<use xlink:href="#g6-p" transform="translate(863 454) rotate(23) scale(1.04)"/>
+<use xlink:href="#g6-p" transform="translate(886 461) rotate(-77) scale(1.07)"/>
+<use xlink:href="#g6-p" transform="translate(760 560) rotate(72) scale(1.06)"/>
+<use xlink:href="#g6-p" transform="translate(1010 530) rotate(-41) scale(1.05)"/>
+<use xlink:href="#g6-p" transform="translate(980 360) rotate(25) scale(1.05)"/>
+</g>
+
+<!-- mortar (najr) and pestle -->
+<path d="M302 300C300 380 326 430 330 470C334 510 312 540 308 560V582Q420 620 532 582V560C528 540 506 510 510 470C514 430 540 380 538 300Z" fill="url(#g6-mortar)"/>
+<g fill="none" stroke-linecap="round">
+  <path d="M306 342Q420 382 536 342M308 356Q420 396 534 356" stroke="#3A1E0E" stroke-width="2.2" opacity=".6"/>
+  <path d="M330 462Q420 494 510 462" stroke="#3A1E0E" stroke-width="9" opacity=".35"/>
+  <path d="M330 458Q420 490 510 458" stroke="#D9A070" stroke-width="2.4" opacity=".55"/>
+  <path d="M310 556Q420 590 530 556" stroke="#3A1E0E" stroke-width="2.4" opacity=".6"/>
+  <path d="M340 392C338 420 346 446 350 470M352 500C348 520 340 540 336 556" stroke="#E7B888" stroke-width="5" opacity=".35"/>
+  <path d="M470 370C474 400 480 430 486 460" stroke="#3A1E0E" stroke-width="1.6" opacity=".35"/>
+  <path d="M400 380C398 410 402 440 404 470" stroke="#3A1E0E" stroke-width="1.4" opacity=".3"/>
+</g>
+<ellipse cx="420" cy="300" rx="119" ry="38" fill="#B98258"/>
+<ellipse cx="420" cy="302" rx="98" ry="28" fill="url(#g6-hole)"/>
+<g transform="translate(420 312) scale(.7)">
+  <use xlink:href="#g6-b" transform="translate(-40 8) rotate(20)"/><use xlink:href="#g6-b" transform="translate(-6 14) rotate(-30)"/>
+  <use xlink:href="#g6-b" transform="translate(30 10) rotate(60)"/><use xlink:href="#g6-p" transform="translate(56 2) rotate(-10)"/>
+</g>
+<g transform="translate(462 322) rotate(-44)">
+  <rect x="-30" y="-19" width="310" height="38" rx="19" fill="url(#g6-pestle)"/>
+  <rect x="250" y="-15" width="42" height="30" rx="15" fill="#7A4A2A"/>
+  <circle cx="300" r="17" fill="url(#g6-pestle)"/>
+  <path d="M0-10H240" stroke="#F0C496" stroke-width="4" stroke-linecap="round" opacity=".5"/>
+  <path d="M60 6C110 2 160 8 220 4" stroke="#4A2614" stroke-width="1.4" fill="none" opacity=".45"/>
+</g>
+<path d="M301 300A119 38 0 0 0 539 300L539 306A119 38 0 0 1 301 306Z" fill="#8A5530"/>
+<path d="M301 300A119 38 0 0 0 539 300" fill="none" stroke="#D49A66" stroke-width="5"/>
+<path d="M318 284C350 268 400 262 440 262" fill="none" stroke="#F5CFA0" stroke-width="3" stroke-linecap="round" opacity=".6"/>
+
+<!-- coffee beans -->
+<g>
+<use xlink:href="#g6-bd" transform="translate(590 589) rotate(-59) scale(1.03)"/>
+<use xlink:href="#g6-bd" transform="translate(730 593) rotate(-26) scale(1.07)"/>
+<use xlink:href="#g6-bd" transform="translate(757 595) rotate(80) scale(0.95)"/>
+<use xlink:href="#g6-bd" transform="translate(697 596) rotate(-79) scale(0.95)"/>
+<use xlink:href="#g6-bd" transform="translate(664 601) rotate(-49) scale(1.08)"/>
+<use xlink:href="#g6-bd" transform="translate(545 602) rotate(-58) scale(0.98)"/>
+<use xlink:href="#g6-bd" transform="translate(511 605) rotate(-49) scale(0.97)"/>
+<use xlink:href="#g6-bd" transform="translate(593 614) rotate(-76) scale(0.99)"/>
+<use xlink:href="#g6-bd" transform="translate(636 619) rotate(65) scale(0.98)"/>
+<use xlink:href="#g6-bd" transform="translate(796 620) rotate(-33) scale(1.07)"/>
+<use xlink:href="#g6-bd" transform="translate(481 624) rotate(13) scale(1.05)"/>
+<use xlink:href="#g6-bd" transform="translate(570 625) rotate(-43) scale(1.04)"/>
+<use xlink:href="#g6-bd" transform="translate(539 625) rotate(-59) scale(0.99)"/>
+<use xlink:href="#g6-bd" transform="translate(720 629) rotate(62) scale(1.04)"/>
+<use xlink:href="#g6-bd" transform="translate(838 632) rotate(37) scale(1.04)"/>
+<use xlink:href="#g6-bd" transform="translate(689 634) rotate(-15) scale(1.07)"/>
+<use xlink:href="#g6-bd" transform="translate(766 635) rotate(-67) scale(1.04)"/>
+<use xlink:href="#g6-bd" transform="translate(590 643) rotate(-78) scale(0.96)"/>
+<use xlink:href="#g6-bd" transform="translate(813 644) rotate(78) scale(0.96)"/>
+<use xlink:href="#g6-bd" transform="translate(618 646) rotate(-1) scale(0.99)"/>
+<use xlink:href="#g6-bd" transform="translate(461 652) rotate(73) scale(0.97)"/>
+<use xlink:href="#g6-bd" transform="translate(645 652) rotate(44) scale(1.03)"/>
+<use xlink:href="#g6-bd" transform="translate(529 653) rotate(0) scale(1.00)"/>
+<use xlink:href="#g6-bd" transform="translate(727 655) rotate(67) scale(1.04)"/>
+<use xlink:href="#g6-bd" transform="translate(573 658) rotate(40) scale(1.04)"/>
+<use xlink:href="#g6-bd" transform="translate(783 665) rotate(-43) scale(1.08)"/>
+<use xlink:href="#g6-bd" transform="translate(667 671) rotate(-51) scale(1.00)"/>
+<use xlink:href="#g6-bd" transform="translate(706 675) rotate(-39) scale(1.03)"/>
+<use xlink:href="#g6-bd" transform="translate(485 675) rotate(26) scale(1.01)"/>
+<use xlink:href="#g6-bd" transform="translate(453 675) rotate(35) scale(1.07)"/>
+<use xlink:href="#g6-bd" transform="translate(629 675) rotate(65) scale(0.99)"/>
+<use xlink:href="#g6-bd" transform="translate(511 676) rotate(-9) scale(0.96)"/>
+<use xlink:href="#g6-bd" transform="translate(839 677) rotate(73) scale(0.99)"/>
+<use xlink:href="#g6-bd" transform="translate(568 677) rotate(75) scale(1.04)"/>
+<use xlink:href="#g6-bd" transform="translate(543 677) rotate(-77) scale(1.06)"/>
+<use xlink:href="#g6-bd" transform="translate(737 678) rotate(73) scale(1.06)"/>
+<use xlink:href="#g6-bd" transform="translate(813 681) rotate(69) scale(1.01)"/>
+<use xlink:href="#g6-bd" transform="translate(786 685) rotate(-17) scale(1.00)"/>
+<use xlink:href="#g6-bd" transform="translate(685 689) rotate(16) scale(1.03)"/>
+<use xlink:href="#g6-bd" transform="translate(719 692) rotate(-21) scale(1.05)"/>
+<use xlink:href="#g6-bd" transform="translate(614 693) rotate(-8) scale(1.04)"/>
+<use xlink:href="#g6-bd" transform="translate(549 697) rotate(2) scale(0.98)"/>
+<use xlink:href="#g6-bd" transform="translate(484 699) rotate(28) scale(0.97)"/>
+<use xlink:href="#g6-bd" transform="translate(748 703) rotate(-70) scale(0.99)"/>
+<use xlink:href="#g6-bd" transform="translate(668 703) rotate(-44) scale(1.06)"/>
+<use xlink:href="#g6-bd" transform="translate(780 705) rotate(66) scale(0.97)"/>
+<use xlink:href="#g6-bd" transform="translate(524 709) rotate(60) scale(1.04)"/>
+<use xlink:href="#g6-bd" transform="translate(627 717) rotate(47) scale(1.00)"/>
+<use xlink:href="#g6-bd" transform="translate(716 722) rotate(-59) scale(1.02)"/>
+<use xlink:href="#g6-bd" transform="translate(656 728) rotate(44) scale(1.05)"/>
+<use xlink:href="#g6-bd" transform="translate(740 728) rotate(-29) scale(1.05)"/>
+<use xlink:href="#g6-bd" transform="translate(559 729) rotate(-21) scale(0.99)"/>
+<use xlink:href="#g6-bd" transform="translate(583 735) rotate(-66) scale(1.04)"/>
+<use xlink:href="#g6-bd" transform="translate(688 744) rotate(39) scale(1.04)"/>
+<use xlink:href="#g6-b" transform="translate(679 596) rotate(-15) scale(1.06)"/>
+<use xlink:href="#g6-b" transform="translate(599 598) rotate(-78) scale(1.08)"/>
+<use xlink:href="#g6-b" transform="translate(636 599) rotate(37) scale(1.05)"/>
+<use xlink:href="#g6-b" transform="translate(571 610) rotate(57) scale(1.08)"/>
+<use xlink:href="#g6-b" transform="translate(616 613) rotate(-64) scale(1.02)"/>
+<use xlink:href="#g6-b" transform="translate(721 613) rotate(68) scale(1.05)"/>
+<use xlink:href="#g6-b" transform="translate(652 616) rotate(-14) scale(1.09)"/>
+<use xlink:href="#g6-b" transform="translate(676 620) rotate(53) scale(1.03)"/>
+<use xlink:href="#g6-b" transform="translate(530 627) rotate(49) scale(1.06)"/>
+<use xlink:href="#g6-b" transform="translate(567 631) rotate(-32) scale(1.02)"/>
+<use xlink:href="#g6-b" transform="translate(630 632) rotate(-57) scale(1.02)"/>
+<use xlink:href="#g6-b" transform="translate(743 636) rotate(-6) scale(1.04)"/>
+<use xlink:href="#g6-b" transform="translate(722 645) rotate(64) scale(1.04)"/>
+<use xlink:href="#g6-b" transform="translate(604 645) rotate(52) scale(1.09)"/>
+<use xlink:href="#g6-b" transform="translate(674 648) rotate(-17) scale(1.00)"/>
+<use xlink:href="#g6-b" transform="translate(575 650) rotate(46) scale(1.04)"/>
+<use xlink:href="#g6-b" transform="translate(701 657) rotate(-53) scale(1.04)"/>
+<use xlink:href="#g6-b" transform="translate(642 659) rotate(38) scale(1.08)"/>
+<use xlink:href="#g6-b" transform="translate(767 661) rotate(-41) scale(1.03)"/>
+<use xlink:href="#g6-b" transform="translate(538 664) rotate(-73) scale(1.03)"/>
+<use xlink:href="#g6-b" transform="translate(621 667) rotate(52) scale(1.06)"/>
+<use xlink:href="#g6-b" transform="translate(742 669) rotate(-56) scale(1.00)"/>
+<use xlink:href="#g6-b" transform="translate(681 673) rotate(64) scale(1.05)"/>
+<use xlink:href="#g6-b" transform="translate(583 679) rotate(65) scale(1.02)"/>
+<use xlink:href="#g6-b" transform="translate(722 679) rotate(-9) scale(1.04)"/>
+<use xlink:href="#g6-b" transform="translate(637 689) rotate(34) scale(1.08)"/>
+<use xlink:href="#g6-b" transform="translate(430 770) rotate(75) scale(1.05)"/>
+<use xlink:href="#g6-b" transform="translate(470 805) rotate(-15) scale(1.03)"/>
+<use xlink:href="#g6-b" transform="translate(880 760) rotate(6) scale(0.97)"/>
+<use xlink:href="#g6-b" transform="translate(915 712) rotate(-34) scale(0.99)"/>
+<use xlink:href="#g6-b" transform="translate(560 812) rotate(-73) scale(0.96)"/>
+<use xlink:href="#g6-b" transform="translate(812 805) rotate(62) scale(0.99)"/>
+<use xlink:href="#g6-b" transform="translate(360 640) rotate(37) scale(1.00)"/>
+<use xlink:href="#g6-b" transform="translate(1000 640) rotate(-64) scale(1.04)"/>
+</g>
+
+<!-- cloves in a small porcelain dish -->
+<ellipse cx="300" cy="736" rx="88" ry="30" fill="#B8A688"/>
+<ellipse cx="300" cy="730" rx="88" ry="29" fill="url(#g6-porc)"/>
+<ellipse cx="300" cy="731" rx="74" ry="22" fill="#E6D9C2"/>
+<ellipse cx="300" cy="730" rx="81" ry="25.5" fill="none" stroke="#1E4D57" stroke-width="2.5"/>
+<path d="M220 722C240 708 272 702 300 702" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" opacity=".8"/>
+<g fill="#3A2416" opacity=".35" filter="url(#g6-sh)">
+<use xlink:href="#g6-c" transform="translate(266 729) rotate(-20) scale(1.25)"/>
+<use xlink:href="#g6-c" transform="translate(300 721) rotate(35) scale(1.25)"/>
+<use xlink:href="#g6-c" transform="translate(334 727) rotate(80) scale(1.25)"/>
+<use xlink:href="#g6-c" transform="translate(284 743) rotate(-60) scale(1.25)"/>
+<use xlink:href="#g6-c" transform="translate(322 745) rotate(10) scale(1.25)"/>
+<use xlink:href="#g6-c" transform="translate(354 739) rotate(140) scale(1.25)"/>
+<use xlink:href="#g6-c" transform="translate(248 745) rotate(-110) scale(1.25)"/>
+<use xlink:href="#g6-c" transform="translate(304 733) rotate(60) scale(1.25)"/>
+<use xlink:href="#g6-c" transform="translate(274 717) rotate(100) scale(1.25)"/>
+<use xlink:href="#g6-c" transform="translate(344 717) rotate(-150) scale(1.25)"/>
+<use xlink:href="#g6-c" transform="translate(316 709) rotate(20) scale(1.25)"/>
+</g>
+<use xlink:href="#g6-c" transform="translate(262 724) rotate(-20) scale(1.25)"/>
+<use xlink:href="#g6-c" transform="translate(296 716) rotate(35) scale(1.25)"/>
+<use xlink:href="#g6-c" transform="translate(330 722) rotate(80) scale(1.25)"/>
+<use xlink:href="#g6-c" transform="translate(280 738) rotate(-60) scale(1.25)"/>
+<use xlink:href="#g6-c" transform="translate(318 740) rotate(10) scale(1.25)"/>
+<use xlink:href="#g6-c" transform="translate(350 734) rotate(140) scale(1.25)"/>
+<use xlink:href="#g6-c" transform="translate(244 740) rotate(-110) scale(1.25)"/>
+<use xlink:href="#g6-c" transform="translate(300 728) rotate(60) scale(1.25)"/>
+<use xlink:href="#g6-c" transform="translate(270 712) rotate(100) scale(1.25)"/>
+<use xlink:href="#g6-c" transform="translate(340 712) rotate(-150) scale(1.25)"/>
+<use xlink:href="#g6-c" transform="translate(312 704) rotate(20) scale(1.25)"/>
+<use xlink:href="#g6-c" transform="translate(400 790) rotate(60) scale(1.3)"/>
+<use xlink:href="#g6-c" transform="translate(196 790) rotate(-30) scale(1.3)"/>
+
+<rect width="1200" height="900" fill="url(#g6-vig)"/>
+</svg>

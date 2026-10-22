@@ -1,0 +1,243 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="900" viewBox="0 0 1200 900">
+<defs>
+  <linearGradient id="g2-sky" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#AFC9C1"/>
+    <stop offset=".16" stop-color="#D9CBA8"/>
+    <stop offset=".32" stop-color="#F3C796"/>
+    <stop offset=".55" stop-color="#F5AE78"/>
+  </linearGradient>
+  <linearGradient id="g2-wall" x1="0" y1="0" x2="1" y2=".35">
+    <stop offset="0" stop-color="#F6CF98"/>
+    <stop offset=".5" stop-color="#E9B67E"/>
+    <stop offset="1" stop-color="#D49C68"/>
+  </linearGradient>
+  <linearGradient id="g2-wallR" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#E6B27A"/>
+    <stop offset="1" stop-color="#D29E6A"/>
+  </linearGradient>
+  <linearGradient id="g2-wallL" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#C89C78"/>
+    <stop offset="1" stop-color="#D6AC84"/>
+  </linearGradient>
+  <linearGradient id="g2-roshade" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#FFE6BE" stop-opacity=".35"/>
+    <stop offset=".35" stop-color="#FFE6BE" stop-opacity="0"/>
+    <stop offset="1" stop-color="#1A0E06" stop-opacity=".28"/>
+  </linearGradient>
+  <linearGradient id="g2-ground" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#9A6E5C"/>
+    <stop offset="1" stop-color="#6E4A3C"/>
+  </linearGradient>
+  <linearGradient id="g2-glowtop" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#FFE3B0" stop-opacity=".45"/>
+    <stop offset="1" stop-color="#FFE3B0" stop-opacity="0"/>
+  </linearGradient>
+  <radialGradient id="g2-sun" cx="0" cy=".3" r=".8">
+    <stop offset="0" stop-color="#FFE6B8" stop-opacity=".85"/>
+    <stop offset="1" stop-color="#FFE2B0" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="g2-vig" cx=".5" cy=".46" r=".75">
+    <stop offset=".55" stop-color="#2A1D14" stop-opacity="0"/>
+    <stop offset="1" stop-color="#2A1D14" stop-opacity=".34"/>
+  </radialGradient>
+  <pattern id="g2-stone" width="240" height="120" patternUnits="userSpaceOnUse" patternTransform="scale(.72)">
+    <g fill="#FFF2DA" fill-opacity=".1"><rect x="110" width="65" height="22"/><rect x="55" y="48" width="65" height="20"/><rect x="165" y="68" width="60" height="28"/></g>
+    <g fill="#7A4A26" fill-opacity=".05"><rect x="150" y="22" width="60" height="26"/><rect y="96" width="70" height="24"/><rect x="30" y="68" width="65" height="28"/></g>
+    <path d="M0 21.5H240M0 47.5H240M0 67.5H240M0 95.5H240M0 119.5H240M40 0V22M110 0V22M175 0V22M15 22V48M80 22V48M150 22V48M210 22V48M55 48V68M120 48V68M190 48V68M30 68V96M95 68V96M165 68V96M225 68V96M70 96V120M135 96V120M200 96V120" fill="none" stroke="#8E5E38" stroke-opacity=".15" stroke-width="1.2"/>
+  </pattern>
+  <pattern id="g2-lat" width="9" height="9" patternUnits="userSpaceOnUse">
+    <path d="M4.5 1.2L7.8 4.5 4.5 7.8 1.2 4.5Z" fill="#140B05" fill-opacity=".72"/>
+  </pattern>
+  <pattern id="g2-lou" width="10" height="7" patternUnits="userSpaceOnUse">
+    <rect y="4.6" width="10" height="2.4" fill="#140B05" fill-opacity=".5"/>
+  </pattern>
+  <filter id="g2-blur" x="-10%" y="-10%" width="120%" height="120%"><feGaussianBlur stdDeviation="5"/></filter>
+  <filter id="g2-soft" x="-10%" y="-10%" width="120%" height="120%"><feGaussianBlur stdDeviation="2.5"/></filter>
+  <filter id="g2-cloud" x="-20%" y="-50%" width="140%" height="200%"><feGaussianBlur stdDeviation="10"/></filter>
+
+  <!-- wide roshan unit, 3 bays: 260 x 150 (fill = colour via currentColor) -->
+  <g id="g2-roW">
+    <rect x="-8" y="-6" width="276" height="10" fill="currentColor"/>
+    <path d="M-12-6H272L264-20H-4Z" fill="currentColor"/>
+    <path d="M-12-6H272" stroke="#140B05" stroke-opacity=".35" stroke-width="2"/>
+    <path d="M6-20l8-10 8 10 8-10 8 10 8-10 8 10 8-10 8 10 8-10 8 10 8-10 8 10 8-10 8 10 8-10 8 10 8-10 8 10 8-10 8 10 8-10 8 10 8-10 8 10 8-10 8 10 8-10 8 10 8-10 8 10 8-10 8 10Z" fill="currentColor"/>
+    <rect width="260" height="150" fill="currentColor"/>
+    <g fill="url(#g2-lat)">
+      <rect x="10" y="8" width="72" height="66"/><rect x="94" y="8" width="72" height="66"/><rect x="178" y="8" width="72" height="66"/>
+    </g>
+    <g fill="url(#g2-lou)">
+      <rect x="10" y="84" width="72" height="30"/><rect x="94" y="84" width="72" height="30"/><rect x="178" y="84" width="72" height="30"/>
+    </g>
+    <g fill="#140B05" fill-opacity=".22">
+      <rect x="12" y="122" width="68" height="20"/><rect x="96" y="122" width="68" height="20"/><rect x="180" y="122" width="68" height="20"/>
+    </g>
+    <g fill="currentColor"><path d="M46 125l8 7-8 7-8-7zM130 125l8 7-8 7-8-7zM214 125l8 7-8 7-8-7z"/></g>
+    <g fill="#140B05" fill-opacity=".3">
+      <rect x="84" width="6" height="150"/><rect x="168" width="6" height="150"/>
+      <rect y="76" width="260" height="4"/><rect y="116" width="260" height="3"/>
+    </g>
+    <rect y="146" width="260" height="8" fill="currentColor"/>
+    <rect y="150" width="260" height="4" fill="#140B05" fill-opacity=".3"/>
+    <rect x="-8" y="-20" width="276" height="174" fill="url(#g2-roshade)"/>
+    <rect x="-1" width="4" height="154" fill="#FFDDA6" opacity=".55"/>
+  </g>
+  <!-- narrow roshan unit, 2 bays: 150 x 150 -->
+  <g id="g2-roN">
+    <rect x="-8" y="-6" width="166" height="10" fill="currentColor"/>
+    <path d="M-12-6H162L154-20H-4Z" fill="currentColor"/>
+    <path d="M-12-6H162" stroke="#140B05" stroke-opacity=".35" stroke-width="2"/>
+    <path d="M7-20l8-10 8 10 8-10 8 10 8-10 8 10 8-10 8 10 8-10 8 10 8-10 8 10 8-10 8 10 8-10 8 10 8-10 8 10Z" fill="currentColor"/>
+    <rect width="150" height="150" fill="currentColor"/>
+    <g fill="url(#g2-lat)"><rect x="9" y="8" width="60" height="66"/><rect x="81" y="8" width="60" height="66"/></g>
+    <g fill="url(#g2-lou)"><rect x="9" y="84" width="60" height="30"/><rect x="81" y="84" width="60" height="30"/></g>
+    <g fill="#140B05" fill-opacity=".22"><rect x="11" y="122" width="56" height="20"/><rect x="83" y="122" width="56" height="20"/></g>
+    <g fill="currentColor"><path d="M39 125l8 7-8 7-8-7zM111 125l8 7-8 7-8-7z"/></g>
+    <g fill="#140B05" fill-opacity=".3"><rect x="72" width="6" height="150"/><rect y="76" width="150" height="4"/><rect y="116" width="150" height="3"/></g>
+    <rect y="146" width="150" height="8" fill="currentColor"/>
+    <rect y="150" width="150" height="4" fill="#140B05" fill-opacity=".3"/>
+    <rect x="-8" y="-20" width="166" height="174" fill="url(#g2-roshade)"/>
+    <rect x="-1" width="4" height="154" fill="#FFDDA6" opacity=".55"/>
+  </g>
+  <!-- corbel under a roshan stack (width set by scale) -->
+  <g id="g2-corbel">
+    <path d="M0 0H100L92 12H8Z" fill="currentColor"/>
+    <path d="M8 12H92L80 26H20Z" fill="currentColor"/>
+    <path d="M20 26H80L64 44H36Z" fill="currentColor"/>
+    <path d="M0 0H100L92 12H8ZM20 26H80L64 44H36Z" fill="#140B05" fill-opacity=".18"/>
+  </g>
+  <g id="g2-sh"><rect width="100" height="100" fill="#6E2A12"/></g>
+</defs>
+
+<!-- sky -->
+<rect width="1200" height="900" fill="url(#g2-sky)"/>
+<rect width="1200" height="600" fill="url(#g2-sun)"/>
+<g fill="#FBE3C4" filter="url(#g2-cloud)" opacity=".75">
+  <ellipse cx="380" cy="40" rx="220" ry="14"/>
+  <ellipse cx="900" cy="24" rx="180" ry="11"/>
+  <ellipse cx="1110" cy="120" rx="130" ry="10"/>
+  <ellipse cx="90" cy="168" rx="120" ry="9"/>
+</g>
+<!-- distant minaret -->
+<g fill="#D9AE8C" opacity=".85">
+  <rect x="104" y="150" width="34" height="120"/>
+  <rect x="96" y="146" width="50" height="8" rx="2"/>
+  <rect x="110" y="112" width="22" height="36"/>
+  <rect x="104" y="108" width="34" height="6" rx="2"/>
+  <path d="M112 108Q121 70 121 58Q121 70 130 108Z"/>
+</g>
+
+<!-- left neighbour, in shade -->
+<rect x="0" y="252" width="216" height="600" fill="url(#g2-wallL)"/>
+<rect x="0" y="252" width="216" height="600" fill="url(#g2-stone)"/>
+<rect x="-4" y="240" width="224" height="16" fill="#C4AA92"/>
+<g fill="#4A3020"><rect y="372" width="216" height="9"/><rect y="560" width="216" height="9"/><rect y="742" width="216" height="9"/></g>
+<use xlink:href="#g2-roN" transform="translate(34 404)" color="#5A3C28"/>
+<use xlink:href="#g2-corbel" transform="translate(38 558) scale(1.42 .9)" color="#5A3C28"/>
+<rect x="52" y="650" width="70" height="80" fill="#4A3020"/>
+<rect x="58" y="656" width="58" height="68" fill="url(#g2-lat)"/>
+
+<!-- right neighbour -->
+<rect x="984" y="206" width="230" height="650" fill="url(#g2-wallR)"/>
+<rect x="984" y="206" width="230" height="650" fill="url(#g2-stone)"/>
+<rect x="980" y="194" width="232" height="16" fill="#EFD9B6"/>
+<g fill="#5B3A24"><rect x="984" y="306" width="220" height="9"/><rect x="984" y="488" width="220" height="9"/><rect x="984" y="672" width="220" height="9"/></g>
+<rect x="1030" y="350" width="80" height="104" fill="#1E4D57"/>
+<rect x="1036" y="356" width="32" height="92" fill="url(#g2-lou)"/><rect x="1072" y="356" width="32" height="92" fill="url(#g2-lou)"/>
+<use xlink:href="#g2-sh" transform="translate(1110 360) scale(.18 1)" opacity=".25"/>
+<use xlink:href="#g2-roN" transform="translate(1060 530)" color="#6A4630"/>
+
+<!-- main house facade -->
+<rect x="210" y="104" width="780" height="750" fill="url(#g2-wall)"/>
+<rect x="210" y="104" width="780" height="750" fill="url(#g2-stone)"/>
+<g fill="#FFF4E0" opacity=".22">
+  <rect x="234" y="128" width="150" height="60"/><rect x="760" y="520" width="120" height="70"/>
+</g>
+<rect x="210" y="104" width="780" height="300" fill="url(#g2-glowtop)"/>
+<!-- parapet -->
+<path d="M206 102l14-18 14 18 14-18 14 18 14-18 14 18 14-18 14 18 14-18 14 18 14-18 14 18 14-18 14 18 14-18 14 18 14-18 14 18 14-18 14 18 14-18 14 18 14-18 14 18 14-18 14 18 14-18 14 18 14-18 14 18 14-18 14 18 14-18 14 18 14-18 14 18 14-18 14 18 14-18 14 18 14-18 14 18 14-18 14 18 14-18 14 18 14-18 14 18 14-18 14 18 14-18 14 18 14-18 14 18 14-18 14 18V120H206Z" fill="#F8E8CC"/>
+<path d="M216 108H986" stroke="#B88E62" stroke-width="7" stroke-dasharray="8 12" opacity=".55"/>
+<rect x="206" y="116" width="788" height="5" fill="#B88E62" opacity=".45"/>
+<!-- timber bands -->
+<g fill="#5B3A24">
+  <rect x="210" y="288" width="780" height="11"/><rect x="210" y="468" width="780" height="11"/><rect x="210" y="648" width="780" height="11"/>
+  <rect x="210" y="200" width="780" height="6"/><rect x="210" y="380" width="780" height="6"/><rect x="210" y="560" width="780" height="6"/><rect x="210" y="748" width="780" height="6"/>
+</g>
+<g fill="#A57A50" opacity=".7">
+  <rect x="210" y="288" width="780" height="2"/><rect x="210" y="468" width="780" height="2"/><rect x="210" y="648" width="780" height="2"/>
+</g>
+
+<!-- cast shadows of roshans (sun from the left) -->
+<g filter="url(#g2-soft)" opacity=".3">
+  <use xlink:href="#g2-sh" transform="translate(498 132) scale(2.6 5.62)"/>
+  <use xlink:href="#g2-sh" transform="translate(290 312) scale(1.5 3.94)"/>
+  <use xlink:href="#g2-sh" transform="translate(816 132) scale(1.5 3.94)"/>
+  <use xlink:href="#g2-sh" transform="translate(316 166) scale(.86 1.1)"/>
+  <use xlink:href="#g2-sh" transform="translate(834 518) scale(.8 1.1)"/>
+</g>
+
+<!-- small windows -->
+<g>
+  <rect x="296" y="146" width="88" height="112" fill="#5B3A24"/>
+  <rect x="302" y="152" width="36" height="100" fill="#6E4A2E"/><rect x="342" y="152" width="36" height="100" fill="#6E4A2E"/>
+  <rect x="302" y="152" width="36" height="100" fill="url(#g2-lou)"/><rect x="342" y="152" width="36" height="100" fill="url(#g2-lou)"/>
+  <rect x="290" y="258" width="100" height="8" fill="#5B3A24"/>
+  <rect x="816" y="500" width="80" height="112" fill="#1E4D57"/>
+  <rect x="822" y="506" width="32" height="100" fill="url(#g2-lou)"/><rect x="858" y="506" width="32" height="100" fill="url(#g2-lou)"/>
+  <rect x="810" y="612" width="92" height="8" fill="#5B3A24"/>
+</g>
+
+<!-- roshan stacks -->
+<use xlink:href="#g2-roN" transform="translate(262 314)" color="#6E4A2E"/>
+<use xlink:href="#g2-roN" transform="translate(262 494)" color="#6E4A2E"/>
+<use xlink:href="#g2-corbel" transform="translate(266 648) scale(1.42 1)" color="#6E4A2E"/>
+<use xlink:href="#g2-roN" transform="translate(788 134)" color="#6E4A2E"/>
+<use xlink:href="#g2-roN" transform="translate(788 314)" color="#6E4A2E"/>
+<use xlink:href="#g2-corbel" transform="translate(792 468) scale(1.42 1)" color="#6E4A2E"/>
+<use xlink:href="#g2-roW" transform="translate(470 134)" color="#2C6872"/>
+<use xlink:href="#g2-roW" transform="translate(470 314)" color="#2C6872"/>
+<use xlink:href="#g2-roW" transform="translate(470 494)" color="#2C6872"/>
+<use xlink:href="#g2-corbel" transform="translate(474 648) scale(2.52 1)" color="#2C6872"/>
+
+<!-- ground floor: carved door -->
+<path d="M522 846V724Q522 668 600 650Q678 668 678 724V846Z" fill="#F4E3C4"/>
+<path d="M522 846V724Q522 668 600 650Q678 668 678 724V846" fill="none" stroke="#B88E62" stroke-width="2" opacity=".6"/>
+<path d="M542 846V730Q542 688 600 674Q658 688 658 730V846Z" fill="#3A2416"/>
+<path d="M548 728Q552 694 600 682Q648 694 652 728Z" fill="#5B3A24"/>
+<g stroke="#2A1A0E" stroke-width="2" opacity=".7">
+  <path d="M600 728V686M600 728L570 696M600 728L630 696M600 728L556 712M600 728L644 712"/>
+</g>
+<rect x="548" y="732" width="50" height="114" fill="#6E4A2E"/>
+<rect x="602" y="732" width="50" height="114" fill="#62412A"/>
+<g fill="#3A2416" opacity=".55">
+  <rect x="556" y="742" width="34" height="28"/><rect x="556" y="778" width="34" height="28"/><rect x="556" y="814" width="34" height="26"/>
+  <rect x="610" y="742" width="34" height="28"/><rect x="610" y="778" width="34" height="28"/><rect x="610" y="814" width="34" height="26"/>
+</g>
+<g fill="#C8912F"><circle cx="594" cy="792" r="3"/><circle cx="606" cy="792" r="3"/></g>
+<path d="M556 770h34M556 806h34M610 770h34M610 806h34" stroke="#C8912F" stroke-width="1" stroke-dasharray="1 5" stroke-linecap="round"/>
+<!-- wall lamps -->
+<g fill="#7A5222">
+  <path d="M500 712h18v4h-18z"/><path d="M682 712h18v4h-18z"/>
+  <path d="M488 718h24l-4 34h-16z" fill="#C8912F"/><path d="M688 718h24l-4 34h-16z" fill="#C8912F"/>
+  <path d="M486 714l14-12 14 12z"/><path d="M686 714l14-12 14 12z"/>
+</g>
+<g fill="#FFE7B0"><rect x="495" y="724" width="10" height="22"/><rect x="695" y="724" width="10" height="22"/></g>
+<!-- ground floor windows -->
+<rect x="296" y="700" width="80" height="88" fill="#5B3A24"/><rect x="302" y="706" width="68" height="76" fill="url(#g2-lat)"/>
+<rect x="824" y="700" width="80" height="88" fill="#5B3A24"/><rect x="830" y="706" width="68" height="76" fill="url(#g2-lat)"/>
+
+<!-- evening shade from the houses opposite -->
+<g fill="#5A2E34">
+<path d="M0 520L210 590L990 744L1200 790V900H0Z" opacity=".4" filter="url(#g2-soft)"/>
+<rect x="0" y="240" width="216" height="290" opacity=".22"/>
+</g>
+<rect x="206" y="104" width="6" height="750" fill="#4A3020" opacity=".35"/>
+<rect x="988" y="104" width="6" height="750" fill="#4A3020" opacity=".25"/>
+
+<!-- paving -->
+<rect y="846" width="1200" height="54" fill="url(#g2-ground)"/>
+<path d="M0 846H1200" stroke="#3A2416" stroke-width="3" opacity=".35"/>
+<path d="M0 860H1200M0 880H1200" stroke="#4E3428" stroke-width="1.5" opacity=".5"/>
+<path d="M60 846L40 900M200 846L190 900M340 846L338 900M480 846L486 900M720 846L732 900M860 846L880 900M1000 846L1030 900M1140 846L1176 900" stroke="#5B4636" stroke-width="1.5" opacity=".45"/>
+
+<rect width="1200" height="900" fill="url(#g2-vig)"/>
+</svg>

@@ -1,0 +1,266 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="900" viewBox="0 0 1200 900">
+<defs>
+  <linearGradient id="g4-cloth" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#F5E7CF"/>
+    <stop offset=".6" stop-color="#E7D2B0"/>
+    <stop offset="1" stop-color="#D2B68E"/>
+  </linearGradient>
+  <pattern id="g4-linen" width="6" height="6" patternUnits="userSpaceOnUse">
+    <path d="M0 .5H6M.5 0V6" stroke="#B89A72" stroke-width="1" stroke-opacity=".16"/>
+  </pattern>
+  <pattern id="g4-weave" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+    <path d="M0 6H12V0M12 18H24V12M12 18V24M0 18H6" fill="none" stroke="#8E6A34" stroke-width="1.4" stroke-opacity=".28"/>
+  </pattern>
+  <radialGradient id="g4-plate" cx=".4" cy=".36" r=".7">
+    <stop offset="0" stop-color="#EBCB8C"/>
+    <stop offset=".7" stop-color="#D2AB68"/>
+    <stop offset="1" stop-color="#B48A4C"/>
+  </radialGradient>
+  <radialGradient id="g4-dish" cx=".5" cy=".5" r=".5">
+    <stop offset=".7" stop-color="#5B3A24" stop-opacity="0"/>
+    <stop offset="1" stop-color="#5B3A24" stop-opacity=".28"/>
+  </radialGradient>
+  <linearGradient id="g4-light" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#FFF6E0" stop-opacity=".35"/>
+    <stop offset=".5" stop-color="#FFF6E0" stop-opacity="0"/>
+    <stop offset="1" stop-color="#3A2416" stop-opacity=".22"/>
+  </linearGradient>
+  <radialGradient id="g4-suk" cx=".38" cy=".32" r=".75">
+    <stop offset="0" stop-color="#EDB05A"/>
+    <stop offset=".5" stop-color="#BE6F26"/>
+    <stop offset="1" stop-color="#6E340E"/>
+  </radialGradient>
+  <radialGradient id="g4-ajw" cx=".38" cy=".3" r=".75">
+    <stop offset="0" stop-color="#5A4036"/>
+    <stop offset=".5" stop-color="#2A1A14"/>
+    <stop offset="1" stop-color="#140A07"/>
+  </radialGradient>
+  <radialGradient id="g4-kha" cx=".36" cy=".3" r=".78">
+    <stop offset="0" stop-color="#C97A38"/>
+    <stop offset=".5" stop-color="#8E4418"/>
+    <stop offset="1" stop-color="#4A1E08"/>
+  </radialGradient>
+  <radialGradient id="g4-stf" cx=".36" cy=".3" r=".78">
+    <stop offset="0" stop-color="#9A5A34"/>
+    <stop offset=".5" stop-color="#5E2C14"/>
+    <stop offset="1" stop-color="#2E1408"/>
+  </radialGradient>
+  <linearGradient id="g4-alm" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#FFF6E2"/>
+    <stop offset="1" stop-color="#DCC096"/>
+  </linearGradient>
+  <linearGradient id="g4-almskin" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#C98E58"/>
+    <stop offset="1" stop-color="#8A5428"/>
+  </linearGradient>
+  <linearGradient id="g4-teal" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#2C6670"/>
+    <stop offset="1" stop-color="#0F3138"/>
+  </linearGradient>
+  <linearGradient id="g4-porc" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#FFFDF8"/>
+    <stop offset=".5" stop-color="#F1E7D6"/>
+    <stop offset="1" stop-color="#C9B89C"/>
+  </linearGradient>
+  <radialGradient id="g4-vig" cx=".5" cy=".46" r=".75">
+    <stop offset=".55" stop-color="#2A1D14" stop-opacity="0"/>
+    <stop offset="1" stop-color="#2A1D14" stop-opacity=".34"/>
+  </radialGradient>
+  <filter id="g4-sh" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="5"/></filter>
+  <filter id="g4-shbig" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="16"/></filter>
+
+  <path id="g4-d" d="M-58 0C-58-22-40-31-6-31C30-31 58-17 58 0C58 17 30 31-6 31C-40 31-58 22-58 0Z"/>
+  <path id="g4-r" d="M-50 0C-50-22-30-33 0-33C28-33 50-22 50 0C50 22 28 33 0 33C-30 33-50 22-50 0Z"/>
+  <linearGradient id="g4-under" x1="0" y1="0" x2="0" y2="1">
+    <stop offset=".45" stop-color="#1A0A04" stop-opacity="0"/>
+    <stop offset="1" stop-color="#1A0A04" stop-opacity=".45"/>
+  </linearGradient>
+  <g id="g4-sukkari">
+    <use xlink:href="#g4-d" fill="url(#g4-suk)"/>
+    <use xlink:href="#g4-d" fill="url(#g4-under)"/>
+    <g fill="none" stroke="#7A3A10" stroke-linecap="round" stroke-opacity=".38" stroke-width="1.5">
+      <path d="M-44-12C-28-18-10-10 6-16S30-12 44-16"/><path d="M-46 6C-30 2-14 10 4 4S30 8 46 2"/><path d="M-30 19C-14 23 4 17 22 21"/>
+      <path d="M-6-22C-2-16-6-10-2-6"/><path d="M24-6C28 0 24 6 28 10"/><path d="M-26-2C-22 2-24 6-20 10"/>
+    </g>
+    <path d="M-34-18C-14-28 14-28 38-16" fill="none" stroke="#FFE3A8" stroke-width="6" stroke-linecap="round" opacity=".45"/>
+    <ellipse cx="6" cy="6" rx="30" ry="10" fill="#F6B95E" opacity=".25"/>
+    <ellipse cx="-55" cy="-1" rx="5" ry="8" fill="#E9C489"/>
+  </g>
+  <g id="g4-ajwa">
+    <use xlink:href="#g4-r" fill="url(#g4-ajw)"/>
+    <g fill="none" stroke="#8A7062" stroke-linecap="round" stroke-opacity=".42" stroke-width="1.5">
+      <path d="M-38-14C-22-20-6-12 8-18S30-14 40-18"/><path d="M-42 4C-26 0-10 8 6 2S30 6 42 0"/><path d="M-28 20C-12 24 4 18 20 22"/>
+      <path d="M-10-24C-6-18-10-12-6-8"/><path d="M18-6C22 0 18 6 22 10"/><path d="M-24-4C-20 0-22 4-18 8"/>
+    </g>
+    <path d="M-28-20C-12-30 12-30 30-22" fill="none" stroke="#C2A898" stroke-width="3.5" stroke-linecap="round" opacity=".4"/>
+    <ellipse cx="-47" cy="-1" rx="4.5" ry="7" fill="#7A5E50"/>
+  </g>
+  <g id="g4-khalas">
+    <use xlink:href="#g4-d" fill="url(#g4-kha)"/>
+    <use xlink:href="#g4-d" fill="url(#g4-under)"/>
+    <path d="M-38-14C-22-28 10-29 30-20C10-18-14-14-32-6Z" fill="#FFF1D8" opacity=".8"/>
+    <ellipse cx="30" cy="15" rx="16" ry="5" fill="#E8A466" opacity=".4" transform="rotate(-10 30 15)"/>
+    <path d="M-30 14C-12 20 14 20 34 14" fill="none" stroke="#3A1606" stroke-opacity=".35" stroke-width="1.6" stroke-linecap="round"/>
+    <ellipse cx="-55" cy="-1" rx="5" ry="8" fill="#D9A064"/>
+  </g>
+  <g id="g4-stuffed">
+    <use xlink:href="#g4-d" fill="url(#g4-stf)"/>
+    <use xlink:href="#g4-d" fill="url(#g4-under)"/>
+    <path d="M-36-2C-20-14 20-14 38-2C20 6-20 6-36-2Z" fill="#2A1208"/>
+    <path d="M-30-6C-14-26 18-28 34-6C18 0-14 0-30-6Z" fill="url(#g4-alm)"/>
+    <path d="M-30-6C-14-26 18-28 34-6" fill="none" stroke="#C49A64" stroke-width="2"/>
+    <path d="M-18-12C-6-20 10-20 20-14" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" opacity=".7"/>
+    <path d="M-30 12C-14 18 14 18 30 12" fill="none" stroke="#C78A5A" stroke-width="3" stroke-linecap="round" opacity=".4"/>
+  </g>
+  <g id="g4-almond">
+    <path d="M-22 0C-14-12 10-12 24 0C10 10-14 10-22 0Z" fill="url(#g4-almskin)"/>
+    <path d="M-14-3C-4-8 8-8 16-3" fill="none" stroke="#E7B888" stroke-width="2" stroke-linecap="round" opacity=".7"/>
+    <path d="M-12 2C-2 4 8 4 16 1" fill="none" stroke="#5E3416" stroke-width="1" opacity=".5"/>
+  </g>
+</defs>
+
+<!-- linen table -->
+<rect width="1200" height="900" fill="url(#g4-cloth)"/>
+<rect width="1200" height="900" fill="url(#g4-linen)"/>
+
+<!-- teal napkin, top left -->
+<g transform="scale(.74)">
+<path d="M-10-10H330L250 70C200 120 130 160 60 190L-10 214Z" fill="#0F3138" opacity=".25" filter="url(#g4-sh)" transform="translate(10 12)"/>
+<path d="M-10-10H330L250 70C200 120 130 160 60 190L-10 214Z" fill="url(#g4-teal)"/>
+<path d="M-10 150L250 70L60 190Z" fill="#2E6C76"/>
+<path d="M14 168L236 84" stroke="#C8912F" stroke-width="2" stroke-dasharray="1 6" stroke-linecap="round"/>
+<path d="M-10 196L56 180" stroke="#C8912F" stroke-width="2" stroke-dasharray="1 6" stroke-linecap="round"/>
+</g>
+
+<!-- finjan, top right -->
+<ellipse cx="1072" cy="196" rx="70" ry="16" fill="#3A2416" opacity=".3" filter="url(#g4-sh)"/>
+<g transform="translate(1056 188)">
+  <ellipse cy="2" rx="86" ry="22" fill="#F4EBDC"/>
+  <ellipse cy="0" rx="76" ry="18" fill="#E9DCC6"/>
+  <path d="M-46-58C-42-36-34-12-26-2Q0 6 26-2C34-12 42-36 46-58Z" fill="url(#g4-porc)"/>
+  <path d="M-45-50Q0-35 45-50L43-42Q0-27-43-42Z" fill="#1E4D57"/>
+  <ellipse cy="-58" rx="46" ry="11" fill="#F6EEE1" stroke="#C8912F" stroke-width="2.4"/>
+  <ellipse cy="-56.5" rx="41" ry="8.5" fill="#D49A36"/>
+  <ellipse cx="-6" cy="-58" rx="18" ry="3.5" fill="#F0C46A" opacity=".8"/>
+</g>
+
+<!-- plate shadow -->
+<ellipse cx="628" cy="500" rx="440" ry="312" fill="#5B3A24" opacity=".38" filter="url(#g4-shbig)"/>
+
+<!-- khous plate (woven palm leaf), drawn flat then foreshortened -->
+<g transform="translate(600 470) scale(1 .72)">
+  <circle cy="22" r="426" fill="#8E6634"/>
+  <circle r="426" fill="url(#g4-plate)"/>
+  <g fill="none" stroke-width="30">
+    <circle r="410" stroke="#CFAA66"/>
+    <circle r="380" stroke="#B0603A"/>
+    <circle r="350" stroke="#CFAA66"/>
+    <circle r="320" stroke="#D9B878"/>
+    <circle r="290" stroke="#CFAA66"/>
+    <circle r="260" stroke="#D9B878"/>
+    <circle r="230" stroke="#CFAA66"/>
+    <circle r="200" stroke="#2F6068"/>
+    <circle r="170" stroke="#CFAA66"/>
+    <circle r="140" stroke="#D9B878"/>
+    <circle r="110" stroke="#CFAA66"/>
+    <circle r="80" stroke="#D9B878"/>
+    <circle r="50" stroke="#CFAA66"/>
+    <circle r="20" stroke="#D9B878"/>
+  </g>
+  <circle r="426" fill="url(#g4-weave)"/>
+  <g fill="none" stroke="#6E4A1E" stroke-opacity=".3" stroke-width="12" stroke-dasharray="9 5"><circle r="403"/> <circle r="373"/> <circle r="343"/> <circle r="313"/> <circle r="283"/> <circle r="253"/> <circle r="223"/> <circle r="193"/> <circle r="163"/> <circle r="133"/> <circle r="103"/> <circle r="73"/> <circle r="43"/></g>
+  <g fill="none" stroke="#6E4A1E" stroke-opacity=".3" stroke-width="12" stroke-dasharray="9 5" stroke-dashoffset="7"><circle r="417"/> <circle r="387"/> <circle r="357"/> <circle r="327"/> <circle r="297"/> <circle r="267"/> <circle r="237"/> <circle r="207"/> <circle r="177"/> <circle r="147"/> <circle r="117"/> <circle r="87"/> <circle r="57"/></g>
+  <g fill="none" stroke="#FFF1CF" stroke-opacity=".28" stroke-width="3" stroke-dasharray="6 8"><circle r="401"/> <circle r="371"/> <circle r="341"/> <circle r="311"/> <circle r="281"/> <circle r="251"/> <circle r="221"/> <circle r="191"/> <circle r="161"/> <circle r="131"/> <circle r="101"/> <circle r="71"/> <circle r="41"/></g>
+  <g fill="none" stroke="#6E4A1E" stroke-opacity=".45" stroke-width="1.6"><circle r="425"/> <circle r="395"/> <circle r="365"/> <circle r="335"/> <circle r="305"/> <circle r="275"/> <circle r="245"/> <circle r="215"/> <circle r="185"/> <circle r="155"/> <circle r="125"/> <circle r="95"/> <circle r="65"/> <circle r="35"/></g>
+  <path d="M0-14L4-4 14 0 4 4 0 14-4 4-14 0-4-4Z" fill="#8E6634" opacity=".6" transform="scale(1.6)"/>
+  <circle r="426" fill="url(#g4-dish)"/>
+  <circle r="426" fill="url(#g4-light)"/>
+  <path d="M-380-150A410 410 0 0 1 120-398" fill="none" stroke="#FFF4D8" stroke-width="5" stroke-linecap="round" opacity=".55"/>
+</g>
+
+<!-- date shadows -->
+<g fill="#4A2A14" opacity=".42" filter="url(#g4-sh)">
+<use xlink:href="#g4-r" transform="translate(650 284) rotate(15) scale(0.95)"/>
+<use xlink:href="#g4-r" transform="translate(730 270) rotate(-10) scale(0.95)"/>
+<use xlink:href="#g4-r" transform="translate(810 294) rotate(30) scale(0.95)"/>
+<use xlink:href="#g4-r" transform="translate(622 342) rotate(-25) scale(0.95)"/>
+<use xlink:href="#g4-r" transform="translate(702 334) rotate(10) scale(0.95)"/>
+<use xlink:href="#g4-r" transform="translate(782 346) rotate(-35) scale(0.95)"/>
+<use xlink:href="#g4-r" transform="translate(862 364) rotate(5) scale(0.95)"/>
+<use xlink:href="#g4-r" transform="translate(672 404) rotate(20) scale(0.95)"/>
+<use xlink:href="#g4-r" transform="translate(752 410) rotate(-15) scale(0.95)"/>
+<use xlink:href="#g4-r" transform="translate(832 424) rotate(25) scale(0.95)"/>
+<use xlink:href="#g4-r" transform="translate(722 362) rotate(60) scale(0.95)"/>
+<use xlink:href="#g4-d" transform="translate(340 412) rotate(-30) scale(1.1 1.24)"/>
+<use xlink:href="#g4-d" transform="translate(430 384) rotate(5) scale(1.1 1.24)"/>
+<use xlink:href="#g4-d" transform="translate(515 410) rotate(35) scale(1.1 1.24)"/>
+<use xlink:href="#g4-d" transform="translate(310 482) rotate(10) scale(1.1 1.24)"/>
+<use xlink:href="#g4-d" transform="translate(402 464) rotate(-15) scale(1.1 1.24)"/>
+<use xlink:href="#g4-d" transform="translate(492 480) rotate(20) scale(1.1 1.24)"/>
+<use xlink:href="#g4-d" transform="translate(355 552) rotate(-35) scale(1.1 1.24)"/>
+<use xlink:href="#g4-d" transform="translate(442 544) rotate(0) scale(1.1 1.24)"/>
+<use xlink:href="#g4-d" transform="translate(525 554) rotate(-25) scale(1.1 1.24)"/>
+<use xlink:href="#g4-d" transform="translate(420 504) rotate(48) scale(1.1 1.24)"/>
+<use xlink:href="#g4-d" transform="translate(674 484) rotate(-15) scale(1.02)"/>
+<use xlink:href="#g4-d" transform="translate(762 474) rotate(20) scale(1.02)"/>
+<use xlink:href="#g4-d" transform="translate(852 486) rotate(-30) scale(1.02)"/>
+<use xlink:href="#g4-d" transform="translate(714 544) rotate(10) scale(1.02)"/>
+<use xlink:href="#g4-d" transform="translate(802 544) rotate(-20) scale(1.02)"/>
+<use xlink:href="#g4-d" transform="translate(890 536) rotate(15) scale(1.02)"/>
+<use xlink:href="#g4-d" transform="translate(756 612) rotate(-30) scale(1.02)"/>
+<use xlink:href="#g4-d" transform="translate(846 604) rotate(5) scale(1.02)"/>
+<use xlink:href="#g4-d" transform="translate(412 642) rotate(-14) scale(1.08)"/>
+<use xlink:href="#g4-d" transform="translate(507 662) rotate(-6) scale(1.08)"/>
+<use xlink:href="#g4-d" transform="translate(602 674) rotate(2) scale(1.08)"/>
+<use xlink:href="#g4-d" transform="translate(697 680) rotate(8) scale(1.08)"/>
+</g>
+<!-- ajwa, upper right -->
+<use xlink:href="#g4-ajwa" transform="translate(640 272) rotate(15) scale(0.95)"/>
+<use xlink:href="#g4-ajwa" transform="translate(720 258) rotate(-10) scale(0.95)"/>
+<use xlink:href="#g4-ajwa" transform="translate(800 282) rotate(30) scale(0.95)"/>
+<use xlink:href="#g4-ajwa" transform="translate(612 330) rotate(-25) scale(0.95)"/>
+<use xlink:href="#g4-ajwa" transform="translate(692 322) rotate(10) scale(0.95)"/>
+<use xlink:href="#g4-ajwa" transform="translate(772 334) rotate(-35) scale(0.95)"/>
+<use xlink:href="#g4-ajwa" transform="translate(852 352) rotate(5) scale(0.95)"/>
+<use xlink:href="#g4-ajwa" transform="translate(662 392) rotate(20) scale(0.95)"/>
+<use xlink:href="#g4-ajwa" transform="translate(742 398) rotate(-15) scale(0.95)"/>
+<use xlink:href="#g4-ajwa" transform="translate(822 412) rotate(25) scale(0.95)"/>
+<use xlink:href="#g4-ajwa" transform="translate(712 350) rotate(60) scale(0.95)"/>
+<!-- sukkari, left -->
+<use xlink:href="#g4-sukkari" transform="translate(330 400) rotate(-30) scale(1.1 1.24)"/>
+<use xlink:href="#g4-sukkari" transform="translate(420 372) rotate(5) scale(1.1 1.24)"/>
+<use xlink:href="#g4-sukkari" transform="translate(505 398) rotate(35) scale(1.1 1.24)"/>
+<use xlink:href="#g4-sukkari" transform="translate(300 470) rotate(10) scale(1.1 1.24)"/>
+<use xlink:href="#g4-sukkari" transform="translate(392 452) rotate(-15) scale(1.1 1.24)"/>
+<use xlink:href="#g4-sukkari" transform="translate(482 468) rotate(20) scale(1.1 1.24)"/>
+<use xlink:href="#g4-sukkari" transform="translate(345 540) rotate(-35) scale(1.1 1.24)"/>
+<use xlink:href="#g4-sukkari" transform="translate(432 532) rotate(0) scale(1.1 1.24)"/>
+<use xlink:href="#g4-sukkari" transform="translate(515 542) rotate(-25) scale(1.1 1.24)"/>
+<use xlink:href="#g4-sukkari" transform="translate(410 492) rotate(48) scale(1.1 1.24)"/>
+<!-- khalas, right -->
+<use xlink:href="#g4-khalas" transform="translate(664 472) rotate(-15) scale(1.02)"/>
+<use xlink:href="#g4-khalas" transform="translate(752 462) rotate(20) scale(1.02)"/>
+<use xlink:href="#g4-khalas" transform="translate(842 474) rotate(-30) scale(1.02)"/>
+<use xlink:href="#g4-khalas" transform="translate(704 532) rotate(10) scale(1.02)"/>
+<use xlink:href="#g4-khalas" transform="translate(792 532) rotate(-20) scale(1.02)"/>
+<use xlink:href="#g4-khalas" transform="translate(880 524) rotate(15) scale(1.02)"/>
+<use xlink:href="#g4-khalas" transform="translate(746 600) rotate(-30) scale(1.02)"/>
+<use xlink:href="#g4-khalas" transform="translate(836 592) rotate(5) scale(1.02)"/>
+<!-- stuffed with almonds, front -->
+<use xlink:href="#g4-stuffed" transform="translate(402 630) rotate(-14) scale(1.08)"/>
+<use xlink:href="#g4-stuffed" transform="translate(497 650) rotate(-6) scale(1.08)"/>
+<use xlink:href="#g4-stuffed" transform="translate(592 662) rotate(2) scale(1.08)"/>
+<use xlink:href="#g4-stuffed" transform="translate(687 668) rotate(8) scale(1.08)"/>
+
+<!-- loose on the cloth -->
+<g fill="#4A2A14" opacity=".35" filter="url(#g4-sh)">
+  <use xlink:href="#g4-d" transform="translate(232 812) rotate(-30) scale(1.05)"/>
+  <ellipse cx="318" cy="842" rx="24" ry="9"/><ellipse cx="972" cy="790" rx="24" ry="9"/><ellipse cx="1012" cy="818" rx="24" ry="9"/>
+</g>
+<use xlink:href="#g4-sukkari" transform="translate(222 800) rotate(-30) scale(1.05 1.18)"/>
+<use xlink:href="#g4-almond" transform="translate(310 834) rotate(12)"/>
+<use xlink:href="#g4-almond" transform="translate(964 782) rotate(-20)"/>
+<use xlink:href="#g4-almond" transform="translate(1004 810) rotate(28)"/>
+
+<rect width="1200" height="900" fill="url(#g4-vig)"/>
+</svg>

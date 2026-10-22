@@ -1,0 +1,240 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="900" viewBox="0 0 1200 900">
+<defs>
+  <linearGradient id="g1-wall" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#F8ECD8"/>
+    <stop offset=".55" stop-color="#ECD8B8"/>
+    <stop offset="1" stop-color="#D6BA92"/>
+  </linearGradient>
+  <linearGradient id="g1-table" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#7C5434"/>
+    <stop offset=".45" stop-color="#5B3A24"/>
+    <stop offset="1" stop-color="#3A2416"/>
+  </linearGradient>
+  <linearGradient id="g1-ao" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#94401F" stop-opacity="0"/>
+    <stop offset="1" stop-color="#5B3A24" stop-opacity=".35"/>
+  </linearGradient>
+  <linearGradient id="g1-brass" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#9C6A28"/>
+    <stop offset=".17" stop-color="#F4D58E"/>
+    <stop offset=".32" stop-color="#D9A545"/>
+    <stop offset=".66" stop-color="#A66E28"/>
+    <stop offset="1" stop-color="#6A4216"/>
+  </linearGradient>
+  <linearGradient id="g1-brass2" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#E9C276"/>
+    <stop offset=".5" stop-color="#B8822F"/>
+    <stop offset="1" stop-color="#744A19"/>
+  </linearGradient>
+  <linearGradient id="g1-tray" x1="0" y1="0" x2="1" y2=".4">
+    <stop offset="0" stop-color="#EBC274"/>
+    <stop offset=".45" stop-color="#C8912F"/>
+    <stop offset="1" stop-color="#8E5C20"/>
+  </linearGradient>
+  <linearGradient id="g1-well" x1="0" y1="0" x2="1" y2=".4">
+    <stop offset="0" stop-color="#D7A650"/>
+    <stop offset="1" stop-color="#9A6726"/>
+  </linearGradient>
+  <linearGradient id="g1-porc" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#FFFDF8"/>
+    <stop offset=".45" stop-color="#F3EADB"/>
+    <stop offset="1" stop-color="#C9B89C"/>
+  </linearGradient>
+  <radialGradient id="g1-coffee" cx=".45" cy=".4" r=".6">
+    <stop offset="0" stop-color="#EFC46A"/>
+    <stop offset=".7" stop-color="#D49A36"/>
+    <stop offset="1" stop-color="#A86F1F"/>
+  </radialGradient>
+  <linearGradient id="g1-stream" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#F3CF7E"/>
+    <stop offset=".5" stop-color="#DDA444"/>
+    <stop offset="1" stop-color="#B57A22"/>
+  </linearGradient>
+  <radialGradient id="g1-date" cx=".35" cy=".3" r=".75">
+    <stop offset="0" stop-color="#B0612F"/>
+    <stop offset=".55" stop-color="#6E2F14"/>
+    <stop offset="1" stop-color="#3A180A"/>
+  </radialGradient>
+  <linearGradient id="g1-teal" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#3C7680"/>
+    <stop offset=".5" stop-color="#1E4D57"/>
+    <stop offset="1" stop-color="#0F3138"/>
+  </linearGradient>
+  <linearGradient id="g1-skin" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#D9A57A"/>
+    <stop offset=".6" stop-color="#B57E55"/>
+    <stop offset="1" stop-color="#8E5C3A"/>
+  </linearGradient>
+  <linearGradient id="g1-sleeve" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#FFFCF6"/>
+    <stop offset=".6" stop-color="#F1E8DA"/>
+    <stop offset="1" stop-color="#D3C4AC"/>
+  </linearGradient>
+  <radialGradient id="g1-vig" cx=".5" cy=".46" r=".75">
+    <stop offset=".55" stop-color="#2A1D14" stop-opacity="0"/>
+    <stop offset="1" stop-color="#2A1D14" stop-opacity=".34"/>
+  </radialGradient>
+  <radialGradient id="g1-patchfade" cx=".5" cy=".5" r=".5">
+    <stop offset=".35" stop-color="#fff"/>
+    <stop offset="1" stop-color="#000"/>
+  </radialGradient>
+  <pattern id="g1-lattice" width="46" height="46" patternUnits="userSpaceOnUse">
+    <path d="M23 6 40 23 23 40 6 23Z" fill="#FFF4DC"/>
+  </pattern>
+  <mask id="g1-patchmask"><rect width="460" height="400" fill="url(#g1-patchfade)"/></mask>
+  <filter id="g1-blur" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="12"/></filter>
+  <filter id="g1-soft" x="-10%" y="-10%" width="120%" height="120%"><feGaussianBlur stdDeviation="2.2"/></filter>
+  <filter id="g1-steam" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5"/></filter>
+  <path id="g1-dt" d="M-34 0C-34-15-15-19 0-19C18-19 36-13 36 0C36 13 18 18 0 18C-15 18-34 15-34 0Z"/>
+  <g id="g1-datefull">
+    <use xlink:href="#g1-dt" fill="url(#g1-date)"/>
+    <path d="M-20-9C-8-14 8-14 20-10" fill="none" stroke="#FFE2BE" stroke-opacity=".35" stroke-width="3" stroke-linecap="round"/>
+    <path d="M-12 6C-2 3 10 4 18 8M-4-2C4-4 12-3 20 0" fill="none" stroke="#2A1208" stroke-opacity=".45" stroke-width="1.6" stroke-linecap="round"/>
+  </g>
+  <g id="g1-cup">
+    <path d="M-46-58C-42-36-34-12-26-2Q0 6 26-2C34-12 42-36 46-58Z" fill="url(#g1-porc)"/>
+    <path d="M-45-50Q0-35 45-50L43-42Q0-27-43-42Z" fill="#1E4D57"/>
+    <path d="M-43-41Q0-27 43-41" fill="none" stroke="#C8912F" stroke-width="1.6"/>
+    <path d="M-35-16Q0-4 35-16" fill="none" stroke="#C8912F" stroke-width="1.4" stroke-dasharray="2 5"/>
+    <path d="M-38-50C-34-32-28-16-22-6" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" opacity=".8"/>
+  </g>
+</defs>
+
+<!-- wall -->
+<rect width="1200" height="610" fill="url(#g1-wall)"/>
+<!-- lattice light from a roshan, off-frame upper left -->
+<g transform="translate(640 40) skewY(12) skewX(-22)" filter="url(#g1-soft)" opacity=".62">
+  <rect width="460" height="400" fill="#FFF0D2" opacity=".35" mask="url(#g1-patchmask)"/>
+  <rect width="460" height="400" fill="url(#g1-lattice)" mask="url(#g1-patchmask)"/>
+</g>
+<rect y="520" width="1200" height="90" fill="url(#g1-ao)"/>
+
+<!-- table -->
+<rect y="604" width="1200" height="296" fill="url(#g1-table)"/>
+<rect y="604" width="1200" height="5" fill="#9A6D45" opacity=".7"/>
+<g fill="none" stroke-linecap="round">
+  <path d="M0 660C220 650 420 672 640 664S1000 652 1200 666" stroke="#2C1A0E" stroke-opacity=".35" stroke-width="2"/>
+  <path d="M0 735C260 726 470 748 700 738S1020 724 1200 742" stroke="#2C1A0E" stroke-opacity=".3" stroke-width="2"/>
+  <path d="M0 820C300 808 520 834 760 822S1040 808 1200 826" stroke="#2C1A0E" stroke-opacity=".3" stroke-width="2.5"/>
+  <path d="M60 690C200 684 330 698 470 692" stroke="#A27650" stroke-opacity=".35" stroke-width="2"/>
+  <path d="M760 785C880 780 1000 790 1140 784" stroke="#A27650" stroke-opacity=".3" stroke-width="2"/>
+</g>
+
+<!-- tray -->
+<ellipse cx="628" cy="742" rx="440" ry="120" fill="#1E120A" opacity=".45" filter="url(#g1-blur)"/>
+<ellipse cx="600" cy="724" rx="432" ry="124" fill="#6E4517"/>
+<ellipse cx="600" cy="713" rx="432" ry="123" fill="url(#g1-tray)"/>
+<ellipse cx="600" cy="718" rx="378" ry="103" fill="url(#g1-well)"/>
+<g fill="none" stroke="#7A4C18" stroke-linecap="round">
+  <ellipse cx="600" cy="715" rx="406" ry="113" stroke-width="2.4" stroke-dasharray="0 11" stroke-opacity=".7"/>
+  <ellipse cx="600" cy="718" rx="352" ry="95" stroke-width="1.6" stroke-dasharray="16 6" stroke-opacity=".45"/>
+  <ellipse cx="600" cy="718" rx="300" ry="80" stroke-width="1.4" stroke-opacity=".4"/>
+  <ellipse cx="600" cy="718" rx="286" ry="76" stroke-width="5" stroke-dasharray="3 9" stroke-opacity=".3"/>
+</g>
+<g transform="translate(600 722) scale(1 .27)" fill="none" stroke="#7A4C18" stroke-opacity=".26" stroke-width="1.5">
+  <rect x="-80" y="-80" width="160" height="160" vector-effect="non-scaling-stroke"/>
+  <rect x="-80" y="-80" width="160" height="160" transform="rotate(45)" vector-effect="non-scaling-stroke"/>
+  <circle r="58" vector-effect="non-scaling-stroke"/>
+  <circle r="150" stroke-dasharray="4 8" vector-effect="non-scaling-stroke"/>
+</g>
+<path d="M210 690C260 638 420 600 600 592" fill="none" stroke="#FFF0C2" stroke-width="3" stroke-linecap="round" opacity=".75"/>
+<path d="M240 728C300 778 430 810 560 816" fill="none" stroke="#FFE2A0" stroke-width="2" stroke-linecap="round" opacity=".4"/>
+
+<!-- stacked finjans, front left -->
+<ellipse cx="318" cy="770" rx="62" ry="15" fill="#3A2416" opacity=".45" filter="url(#g1-soft)"/>
+<use xlink:href="#g1-cup" transform="translate(310 766)"/>
+<use xlink:href="#g1-cup" transform="translate(310 750)"/>
+<g transform="translate(310 734)">
+  <use xlink:href="#g1-cup"/>
+  <ellipse cy="-58" rx="46" ry="11" fill="#F6EEE1" stroke="#C8912F" stroke-width="2.4"/>
+  <path d="M-42-57Q0-48 42-57Q0-66-42-57Z" fill="#DCCDB5"/>
+</g>
+
+<!-- loose dates on tray -->
+<use xlink:href="#g1-datefull" transform="translate(455 790) rotate(-12) scale(.9)"/>
+<use xlink:href="#g1-datefull" transform="translate(520 805) rotate(14) scale(.88)"/>
+
+<!-- bowl of dates -->
+<ellipse cx="914" cy="676" rx="96" ry="18" fill="#2A1A0E" opacity=".45" filter="url(#g1-soft)"/>
+<ellipse cx="900" cy="612" rx="82" ry="20" fill="#0F3138"/>
+<use xlink:href="#g1-datefull" transform="translate(862 600) rotate(-20) scale(.95)"/>
+<use xlink:href="#g1-datefull" transform="translate(936 598) rotate(16) scale(.95)"/>
+<use xlink:href="#g1-datefull" transform="translate(898 588) rotate(-4)"/>
+<use xlink:href="#g1-datefull" transform="translate(868 572) rotate(24) scale(.9)"/>
+<use xlink:href="#g1-datefull" transform="translate(930 570) rotate(-28) scale(.9)"/>
+<use xlink:href="#g1-datefull" transform="translate(900 552) rotate(6) scale(.88)"/>
+<path d="M818 612A82 20 0 0 0 982 612C978 650 940 670 900 670C860 670 822 650 818 612Z" fill="url(#g1-teal)"/>
+<path d="M826 626C842 652 870 662 896 664" fill="none" stroke="#7FB0B3" stroke-width="3" stroke-linecap="round" opacity=".55"/>
+<path d="M824 624Q900 650 976 624" fill="none" stroke="#C8912F" stroke-width="1.6" stroke-dasharray="2 6" stroke-linecap="round"/>
+<ellipse cx="900" cy="671" rx="38" ry="7" fill="#0F3138"/>
+
+<!-- receiving finjan -->
+<ellipse cx="790" cy="700" rx="58" ry="13" fill="#2A1A0E" opacity=".45" filter="url(#g1-soft)"/>
+<g transform="translate(778 698)">
+  <use xlink:href="#g1-cup"/>
+  <ellipse cy="-58" rx="46" ry="11" fill="#F6EEE1" stroke="#C8912F" stroke-width="2.4"/>
+  <ellipse cy="-56.5" rx="41" ry="8.5" fill="url(#g1-coffee)"/>
+  <ellipse cx="2" cy="-57" rx="16" ry="4" fill="none" stroke="#F8DA94" stroke-width="1.5" opacity=".8"/>
+</g>
+
+<!-- pour -->
+<path d="M729 461C760 462 784 506 783 640L775 640C774 516 756 478 727 473Z" fill="url(#g1-stream)"/>
+<path d="M738 466C760 474 776 510 777 600" fill="none" stroke="#FFF1C8" stroke-width="2" stroke-linecap="round" opacity=".7"/>
+<circle cx="794" cy="634" r="2.6" fill="#E9B957"/>
+<circle cx="766" cy="630" r="2" fill="#E9B957"/>
+
+<!-- dallah (tilted, pouring) -->
+<g transform="translate(392 462) rotate(48)">
+  <path d="M-58-226C-128-246-156-150-90-96" fill="none" stroke="#7E5320" stroke-width="18" stroke-linecap="round"/>
+  <path d="M-64-233C-128-244-150-158-99-108" fill="none" stroke="#EBC57A" stroke-width="4" stroke-linecap="round" opacity=".75"/>
+  <path d="M86-44C156-64 182-170 214-232L230-248L206-236C168-176 136-120 64-122Z" fill="url(#g1-brass2)"/>
+  <path d="M104-72C150-96 172-160 196-214" fill="none" stroke="#FCE7B0" stroke-width="3.5" stroke-linecap="round" opacity=".6"/>
+  <path d="M206-236L230-248L214-232Z" fill="#6A4216"/>
+  <ellipse cy="-2" rx="62" ry="12" fill="#6A4216"/>
+  <path d="M-62 0L62 0L52-16C100-30 112-110 40-165L42-182C52-210 68-235 76-252L-76-252C-68-235-52-210-42-182L-40-165C-112-110-100-30-52-16Z" fill="url(#g1-brass)"/>
+  <path d="M88-40C80-64 74-98 66-120" fill="none" stroke="#7A4E1E" stroke-width="5" stroke-linecap="round"/>
+  <path d="M-52-16Q0-4 52-16" fill="none" stroke="#5E3A12" stroke-width="3"/>
+  <path d="M-88-110Q0-90 88-110" fill="none" stroke="#6A4216" stroke-width="3.2" stroke-dasharray="0 8" stroke-linecap="round"/>
+  <path d="M-80-56Q0-36 80-56" fill="none" stroke="#7A4E1E" stroke-width="1.6" opacity=".7"/>
+  <path d="M-42-166Q0-158 42-166L42-182Q0-174-42-182Z" fill="#7A4E1E"/>
+  <path d="M-42-174Q0-166 42-174" fill="none" stroke="#F2CF85" stroke-width="1.5" stroke-dasharray="3 4"/>
+  <path d="M-60-222Q0-210 60-222" fill="none" stroke="#6A4216" stroke-width="2.4" stroke-dasharray="0 7" stroke-linecap="round"/>
+  <path d="M-70-40C-94-72-86-122-50-152C-68-118-76-78-62-42Z" fill="#FFF2C8" opacity=".55"/>
+  <path d="M-56-196C-60-214-66-232-70-246" fill="none" stroke="#FFF2C8" stroke-width="5" stroke-linecap="round" opacity=".5"/>
+  <ellipse cy="-252" rx="77" ry="13" fill="#B47C2E"/>
+  <ellipse cy="-254" rx="70" ry="10" fill="#E7BD6A"/>
+  <path d="M-64-254C-60-284-28-292-20-300L20-300C28-292 60-284 64-254Z" fill="url(#g1-brass)"/>
+  <path d="M-20-300L-13-338L13-338L20-300Z" fill="url(#g1-brass)"/>
+  <rect x="-17" y="-344" width="34" height="8" rx="3" fill="#8C5C22"/>
+  <circle cy="-354" r="11" fill="url(#g1-brass2)"/>
+  <path d="M-5-362Q-1-392 2-402Q5-392 6-362Z" fill="#A46D27"/>
+  <path d="M-48-262C-40-280-26-288-14-294" fill="none" stroke="#FFF2C8" stroke-width="3" stroke-linecap="round" opacity=".6"/>
+</g>
+
+<!-- hand, wrist and sleeve -->
+<g transform="translate(452 252) rotate(-27)">
+  <path d="M-56-6C-62-34-50-72-20-104L36-118C58-80 64-30 56-4Z" fill="url(#g1-skin)"/>
+  <g fill="#C68D62" stroke="#9A6442" stroke-width="1.2">
+    <rect x="-52" y="-16" width="22" height="36" rx="11"/>
+    <rect x="-30" y="-22" width="24" height="46" rx="12"/>
+    <rect x="-6" y="-22" width="25" height="48" rx="12.5"/>
+    <rect x="19" y="-20" width="25" height="44" rx="12.5"/>
+  </g>
+  <path d="M-48-14C-30-26 10-28 40-20" fill="none" stroke="#E7B88E" stroke-width="3" stroke-linecap="round" opacity=".8"/>
+  <path d="M18-50C46-54 68-34 76-16C79-7 71-2 64-6C54-16 40-28 16-34Z" fill="#BE845A" stroke="#9A6442" stroke-width="1.2"/>
+  <path d="M30-44C46-44 58-34 66-24" fill="none" stroke="#E9BC92" stroke-width="2.2" stroke-linecap="round" opacity=".7"/>
+  <path d="M-36-54C-14-74 14-80 34-76" fill="none" stroke="#EEC6A0" stroke-width="3" stroke-linecap="round" opacity=".6"/>
+</g>
+<path d="M318-10L506-10L480 146C452 164 410 176 384 170Z" fill="url(#g1-sleeve)"/>
+<path d="M470-10L452 150M372-10L392 120" stroke="#D8CAB3" stroke-width="3" fill="none" stroke-linecap="round" opacity=".8"/>
+<path d="M384 170C410 176 452 164 480 146L484 126C454 144 414 154 386 150Z" fill="#E6DAC6"/>
+<path d="M386 170C412 176 452 164 480 146" fill="none" stroke="#C9B89C" stroke-width="2"/>
+
+<!-- steam -->
+<g fill="none" stroke="#FFF8EC" stroke-linecap="round" filter="url(#g1-steam)" opacity=".7">
+  <path d="M812 620C826 590 802 566 818 536" stroke-width="7"/>
+  <path d="M752 612C742 590 760 572 750 552" stroke-width="5"/>
+</g>
+
+<rect width="1200" height="900" fill="url(#g1-vig)"/>
+</svg>
